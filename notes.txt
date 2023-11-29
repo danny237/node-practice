@@ -1,0 +1,8 @@
+1. Install nodemon => npm i --save-dev nodemon
+ |> script: nodemon index.js
+ |> npm run start
+
+2. app.get("/", (req, res, next))
+
+methods: sendStatus
+res.status(500).send({ message: "Something went wrong !" });
